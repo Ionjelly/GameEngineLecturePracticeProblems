@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Program entry">
+      <UniqueIdentifier>{b705adc0-c4f3-4306-abc4-bbd015570ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{7b4379d7-2c8f-46af-8bc5-a175f91969cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Listener">
+      <UniqueIdentifier>{2159fce8-1b17-4026-8b27-2175ae515c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actor">
+      <UniqueIdentifier>{70db0f78-8ad8-4da4-8f5d-2e8e547b88f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\ProgramEntry\ProgramEntry.cpp">
+      <Filter>Program entry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Misc\Precompiled.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\Application.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\ApplicationUsingOgre3d.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\WalkingProfWithRotatingFishApp.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\Actor.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\WalkingToDestinationActor.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\WalkingProfWithRotatingFishDirector.cpp">
+      <Filter>Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\TurningAroundActor.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\ExitListener.cpp">
+      <Filter>Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\RevolvingActor.cpp">
+      <Filter>Actor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\ProgramEntry\ProgramEntry.h">
+      <Filter>Program entry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Misc\Precompiled.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\Application.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\ApplicationUsingOgre3d.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\WalkingProfWithRotatingFishApp.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\Actor.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\WalkingToDestinationActor.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\WalkingProfWithRotatingFishDirector.h">
+      <Filter>Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\TurningAroundActor.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\ExitListener.h">
+      <Filter>Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\RevolvingActor.h">
+      <Filter>Actor</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

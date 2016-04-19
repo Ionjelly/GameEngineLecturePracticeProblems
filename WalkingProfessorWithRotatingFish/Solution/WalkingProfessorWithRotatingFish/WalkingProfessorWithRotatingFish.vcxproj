@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\Actor.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\RevolvingActor.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\TurningAroundActor.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\WalkingToDestinationActor.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\Application.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\ApplicationUsingOgre3d.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\WalkingProfWithRotatingFishApp.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\ExitListener.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\WalkingProfWithRotatingFishDirector.cpp" />
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\Misc\Precompiled.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Precompiled.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\Sources\WalkingProfessorWithRotatingFish\ProgramEntry\ProgramEntry.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\Actor.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\RevolvingActor.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\TurningAroundActor.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Actor\WalkingToDestinationActor.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\Application.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\ApplicationUsingOgre3d.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Application\WalkingProfWithRotatingFishApp.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\ExitListener.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Listener\WalkingProfWithRotatingFishDirector.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\Misc\Precompiled.h" />
+    <ClInclude Include="..\..\Sources\WalkingProfessorWithRotatingFish\ProgramEntry\ProgramEntry.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7BF332A7-1B98-41A3-84F5-335EB0F6B06A}</ProjectGuid>
+    <RootNamespace>WalkingProfessorWithRotatingFish</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>..\..\Binary\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)\Byproducts\</IntDir>
+    <IncludePath>$(OGRE_HOME)\include;$(OGRE_HOME)\boost;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(OGRE_HOME)\include;$(OGRE_HOME)\boost;$(IncludePath)</IncludePath>
+    <OutDir>..\..\Binary\$(Configuration)\</OutDir>
+    <IntDir>$(OutDir)\Byproducts\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <AdditionalOptions>-Zm212 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)\lib\$(Configuration);$(OGRE_HOME)\boost\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain_d.lib;OIS_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>Precompiled.h</PrecompiledHeaderFile>
+      <AdditionalOptions>-Zm202 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(OGRE_HOME)\lib\$(Configuration);$(OGRE_HOME)\boost\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>OgreMain.lib;OIS.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

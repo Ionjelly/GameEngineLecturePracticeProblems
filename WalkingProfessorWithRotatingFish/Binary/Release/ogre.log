@@ -1,0 +1,272 @@
+03:20:16: Creating resource group General
+03:20:16: Creating resource group Internal
+03:20:16: Creating resource group Autodetect
+03:20:16: SceneManagerFactory for type 'DefaultSceneManager' registered.
+03:20:16: Registering ResourceManager for type Material
+03:20:16: Registering ResourceManager for type Mesh
+03:20:16: Registering ResourceManager for type Skeleton
+03:20:16: MovableObjectFactory for type 'ParticleSystem' registered.
+03:20:16: ArchiveFactory for archive type FileSystem registered.
+03:20:16: ArchiveFactory for archive type Zip registered.
+03:20:16: ArchiveFactory for archive type EmbeddedZip registered.
+03:20:16: DDS codec registering
+03:20:16: FreeImage version: 3.15.3
+03:20:16: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+03:20:16: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti
+03:20:16: Registering ResourceManager for type HighLevelGpuProgram
+03:20:16: Registering ResourceManager for type Compositor
+03:20:16: MovableObjectFactory for type 'Entity' registered.
+03:20:16: MovableObjectFactory for type 'Light' registered.
+03:20:16: MovableObjectFactory for type 'BillboardSet' registered.
+03:20:16: MovableObjectFactory for type 'ManualObject' registered.
+03:20:16: MovableObjectFactory for type 'BillboardChain' registered.
+03:20:16: MovableObjectFactory for type 'RibbonTrail' registered.
+03:20:16: Loading library .\RenderSystem_Direct3D9
+03:20:16: Installing plugin: D3D9 RenderSystem
+03:20:16: D3D9 : Direct3D9 Rendering Subsystem created.
+03:20:16: D3D9: Driver Detection Starts
+03:20:16: D3D9: Driver Detection Ends
+03:20:16: Plugin successfully installed
+03:20:16: Loading library .\RenderSystem_Direct3D11
+03:20:16: Installing plugin: D3D11 RenderSystem
+03:20:16: D3D11 : Direct3D11 Rendering Subsystem created.
+03:20:16: D3D11: Driver Detection Starts
+03:20:16: D3D11: Driver Detection Ends
+03:20:16: Plugin successfully installed
+03:20:16: Loading library .\RenderSystem_GL
+03:20:16: Installing plugin: GL RenderSystem
+03:20:16: OpenGL Rendering Subsystem created.
+03:20:16: Plugin successfully installed
+03:20:16: Loading library .\Plugin_ParticleFX
+03:20:16: Installing plugin: ParticleFX
+03:20:16: Particle Emitter Type 'Point' registered
+03:20:16: Particle Emitter Type 'Box' registered
+03:20:16: Particle Emitter Type 'Ellipsoid' registered
+03:20:16: Particle Emitter Type 'Cylinder' registered
+03:20:16: Particle Emitter Type 'Ring' registered
+03:20:16: Particle Emitter Type 'HollowEllipsoid' registered
+03:20:16: Particle Affector Type 'LinearForce' registered
+03:20:16: Particle Affector Type 'ColourFader' registered
+03:20:16: Particle Affector Type 'ColourFader2' registered
+03:20:16: Particle Affector Type 'ColourImage' registered
+03:20:16: Particle Affector Type 'ColourInterpolator' registered
+03:20:16: Particle Affector Type 'Scaler' registered
+03:20:16: Particle Affector Type 'Rotator' registered
+03:20:16: Particle Affector Type 'DirectionRandomiser' registered
+03:20:16: Particle Affector Type 'DeflectorPlane' registered
+03:20:16: Plugin successfully installed
+03:20:16: Loading library .\Plugin_BSPSceneManager
+03:20:16: Installing plugin: BSP Scene Manager
+03:20:16: Plugin successfully installed
+03:20:16: Loading library .\Plugin_CgProgramManager
+03:20:17: Installing plugin: Cg Program Manager
+03:20:17: Plugin successfully installed
+03:20:17: Loading library .\Plugin_PCZSceneManager
+03:20:17: Installing plugin: Portal Connected Zone Scene Manager
+03:20:17: PCZone Factory Type 'ZoneType_Default' registered
+03:20:17: Plugin successfully installed
+03:20:17: Loading library .\Plugin_OctreeZone
+03:20:17: Installing plugin: Octree Zone Factory
+03:20:17: Plugin successfully installed
+03:20:17: Loading library .\Plugin_OctreeSceneManager
+03:20:17: Installing plugin: Octree Scene Manager
+03:20:17: Plugin successfully installed
+03:20:17: *-*-* OGRE Initialising
+03:20:17: *-*-* Version 1.9.0 (Ghadamon)
+03:20:17: D3D11 : RenderSystem Option: Allow NVPerfHUD = No
+03:20:17: D3D11 : RenderSystem Option: Driver type = Hardware
+03:20:17: D3D11 : RenderSystem Option: FSAA = 0
+03:20:17: D3D11 : RenderSystem Option: Floating-point mode = Fastest
+03:20:17: D3D11 : RenderSystem Option: Full Screen = No
+03:20:17: D3D11 : RenderSystem Option: Information Queue Exceptions Bottom Level = No information queue exceptions
+03:20:17: D3D11 : RenderSystem Option: Max Requested Feature Levels = 11.0
+03:20:17: D3D11 : RenderSystem Option: Min Requested Feature Levels = 9.1
+03:20:17: D3D11 : RenderSystem Option: Rendering Device = AMD Radeon R7 200 Series
+03:20:17: D3D11 : RenderSystem Option: VSync = No
+03:20:17: D3D11 : RenderSystem Option: VSync Interval = 1
+03:20:17: D3D11 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+03:20:17: D3D11 : RenderSystem Option: sRGB Gamma Conversion = No
+03:20:17: D3D9 : RenderSystem Option: Allow DirectX9Ex = No
+03:20:17: D3D9 : RenderSystem Option: Allow NVPerfHUD = No
+03:20:17: D3D9 : RenderSystem Option: FSAA = 0
+03:20:17: D3D9 : RenderSystem Option: Fixed Pipeline Enabled = Yes
+03:20:17: D3D9 : RenderSystem Option: Floating-point mode = Fastest
+03:20:17: D3D9 : RenderSystem Option: Full Screen = No
+03:20:17: D3D9 : RenderSystem Option: Multi device memory hint = Use minimum system memory
+03:20:17: D3D9 : RenderSystem Option: Rendering Device = Monitor-1-AMD Radeon R7 200 Series
+03:20:17: D3D9 : RenderSystem Option: Resource Creation Policy = Create on all devices
+03:20:17: D3D9 : RenderSystem Option: Use Multihead = Auto
+03:20:17: D3D9 : RenderSystem Option: VSync = No
+03:20:17: D3D9 : RenderSystem Option: VSync Interval = 1
+03:20:17: D3D9 : RenderSystem Option: Video Mode = 800 x 600 @ 32-bit colour
+03:20:17: D3D9 : RenderSystem Option: sRGB Gamma Conversion = No
+03:20:17: CPU Identifier & Features
+03:20:17: -------------------------
+03:20:17:  *   CPU ID: GenuineIntel: Intel(R) Core(TM) i7-4770K CPU @ 3.50GHz
+03:20:17:  *      SSE: yes
+03:20:17:  *     SSE2: yes
+03:20:17:  *     SSE3: yes
+03:20:17:  *      MMX: yes
+03:20:17:  *   MMXEXT: yes
+03:20:17:  *    3DNOW: no
+03:20:17:  * 3DNOWEXT: no
+03:20:17:  *     CMOV: yes
+03:20:17:  *      TSC: yes
+03:20:17:  *      FPU: yes
+03:20:17:  *      PRO: yes
+03:20:17:  *       HT: no
+03:20:17: -------------------------
+03:20:17: D3D11 : Subsystem Initialising
+03:20:17: D3D11RenderSystem::_createRenderWindow "Program using Ogre3d", 800x600 windowed  miscParams: FSAA=0 FSAAHint= colourDepth=16 gamma=false useNVPerfHUD=false vsync=false vsyncInterval=1 
+03:20:17: D3D11 : Created D3D11 Rendering Window 'Program using Ogre3d' : 800x600, 16bpp
+03:20:17: D3D11 : WARNING - disabling VSync in windowed mode can cause timing issues at lower frame rates, turn VSync on if you observe this problem.
+03:20:17: Registering ResourceManager for type Texture
+03:20:17: Registering ResourceManager for type GpuProgram
+03:20:17: RenderSystem capabilities
+03:20:17: -------------------------
+03:20:17: RenderSystem Name: Direct3D11 Rendering Subsystem
+03:20:17: GPU Vendor: amd
+03:20:17: Device Name: AMD Radeon R7 200 Series
+03:20:17: Driver Version: 8.17.10.1315
+03:20:17:  * Fixed function pipeline: no
+03:20:17:  * Hardware generation of mipmaps: yes
+03:20:17:  * Texture blending: yes
+03:20:17:  * Anisotropic texture filtering: yes
+03:20:17:  * Dot product texture operation: yes
+03:20:17:  * Cube mapping: yes
+03:20:17:  * Hardware stencil buffer: yes
+03:20:17:    - Stencil depth: 8
+03:20:17:    - Two sided stencil support: yes
+03:20:17:    - Wrap stencil values: yes
+03:20:17:  * Hardware vertex / index buffers: yes
+03:20:17:  * 32-bit index buffers: yes
+03:20:17:  * Vertex programs: yes
+03:20:17:  * Number of floating-point constants for vertex programs: 512
+03:20:17:  * Number of integer constants for vertex programs: 16
+03:20:17:  * Number of boolean constants for vertex programs: 16
+03:20:17:  * Fragment programs: yes
+03:20:17:  * Number of floating-point constants for fragment programs: 512
+03:20:17:  * Number of integer constants for fragment programs: 16
+03:20:17:  * Number of boolean constants for fragment programs: 16
+03:20:17:  * Geometry programs: yes
+03:20:17:  * Number of floating-point constants for geometry programs: 512
+03:20:17:  * Number of integer constants for geometry programs: 16
+03:20:17:  * Number of boolean constants for geometry programs: 16
+03:20:17:  * Tesselation Hull programs: yes
+03:20:17:  * Number of floating-point constants for tesselation hull programs: 512
+03:20:17:  * Number of integer constants for tesselation hull programs: 16
+03:20:17:  * Number of boolean constants for tesselation hull programs: 16
+03:20:17:  * Tesselation Domain programs: yes
+03:20:17:  * Number of floating-point constants for tesselation domain programs: 512
+03:20:17:  * Number of integer constants for tesselation domain programs: 16
+03:20:17:  * Number of boolean constants for tesselation domain programs: 16
+03:20:17:  * Compute programs: yes
+03:20:17:  * Number of floating-point constants for compute programs: 512
+03:20:17:  * Number of integer constants for compute programs: 16
+03:20:17:  * Number of boolean constants for compute programs: 16
+03:20:17:  * Supported Shader Profiles: cs_4_0 cs_4_1 cs_5_0 ds_5_0 gs_4_0 gs_4_1 gs_5_0 hlsl hs_5_0 ps_4_0 ps_4_0_level_9_1 ps_4_0_level_9_3 ps_4_1 ps_5_0 vs_4_0 vs_4_0_level_9_1 vs_4_0_level_9_3 vs_4_1 vs_5_0
+03:20:17:  * Texture Compression: yes
+03:20:17:    - DXT: yes
+03:20:17:    - VTC: no
+03:20:17:    - PVRTC: no
+03:20:17:    - ATC: no
+03:20:17:    - ETC1: no
+03:20:17:    - ETC2: no
+03:20:17:    - BC4/BC5: no
+03:20:17:    - BC6H/BC7: no
+03:20:17:  * Scissor Rectangle: yes
+03:20:17:  * Hardware Occlusion Query: yes
+03:20:17:  * User clip planes: yes
+03:20:17:  * VET_UBYTE4 vertex element type: yes
+03:20:17:  * Infinite far plane projection: yes
+03:20:17:  * Hardware render-to-texture: yes
+03:20:17:  * Floating point textures: yes
+03:20:17:  * Non-power-of-two textures: yes
+03:20:17:  * 1d textures: yes
+03:20:17:  * Volume textures: yes
+03:20:17:  * Multiple Render Targets: 8
+03:20:17:    - With different bit depths: yes
+03:20:17:  * Point Sprites: yes
+03:20:17:  * Extended point parameters: yes
+03:20:17:  * Max Point Size: 256
+03:20:17:  * Vertex texture fetch: yes
+03:20:17:  * Number of world matrices: 0
+03:20:17:  * Number of texture units: 16
+03:20:17:  * Stencil buffer depth: 8
+03:20:17:  * Number of vertex blend matrices: 0
+03:20:17:    - Max vertex textures: 4
+03:20:17:    - Vertex textures shared: no
+03:20:17:  * Render to Vertex Buffer : yes
+03:20:17:  * Hardware Atomic Counters: no
+03:20:17: ***************************************
+03:20:17: *** D3D11 : Subsystem Initialized OK ***
+03:20:17: ***************************************
+03:20:17: DefaultWorkQueue('Root') initialising on thread a0c.
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 10cc starting.
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 16d4 starting.
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 1ae4 starting.
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 99c starting.
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 2150 starting.
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 2758 starting.
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 16f0 starting.
+03:20:17: Particle Renderer Type 'billboard' registered
+03:20:17: DefaultWorkQueue('Root')::WorkerFunc - thread 2784 starting.
+03:20:17: SceneManagerFactory for type 'BspSceneManager' registered.
+03:20:17: Registering ResourceManager for type BspLevel
+03:20:17: SceneManagerFactory for type 'PCZSceneManager' registered.
+03:20:17: MovableObjectFactory for type 'PCZLight' registered.
+03:20:17: MovableObjectFactory for type 'Portal' registered.
+03:20:17: MovableObjectFactory for type 'AntiPortal' registered.
+03:20:17: PCZone Factory Type 'ZoneType_Octree' registered
+03:20:17: SceneManagerFactory for type 'OctreeSceneManager' registered.
+03:20:18: DefaultWorkQueue('Root') shutting down on thread a0c.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 10cc stopped.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 2784 stopped.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 99c stopped.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 1ae4 stopped.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 2150 stopped.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 2758 stopped.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 16f0 stopped.
+03:20:18: DefaultWorkQueue('Root')::WorkerFunc - thread 16d4 stopped.
+03:20:18: PCZone Factory Type 'ZoneType_Octree' unregistered
+03:20:18: Unregistering ResourceManager for type BspLevel
+03:20:18: *-*-* OGRE Shutdown
+03:20:18: Unregistering ResourceManager for type Compositor
+03:20:18: Unregistering ResourceManager for type Skeleton
+03:20:18: Unregistering ResourceManager for type Mesh
+03:20:18: Unregistering ResourceManager for type HighLevelGpuProgram
+03:20:18: Uninstalling plugin: Octree Scene Manager
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\Plugin_OctreeSceneManager
+03:20:18: Uninstalling plugin: Octree Zone Factory
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\Plugin_OctreeZone
+03:20:18: Uninstalling plugin: Portal Connected Zone Scene Manager
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\Plugin_PCZSceneManager
+03:20:18: Uninstalling plugin: Cg Program Manager
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\Plugin_CgProgramManager
+03:20:18: Uninstalling plugin: BSP Scene Manager
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\Plugin_BSPSceneManager
+03:20:18: Uninstalling plugin: ParticleFX
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\Plugin_ParticleFX
+03:20:18: Uninstalling plugin: GL RenderSystem
+03:20:18: *** Stopping Win32GL Subsystem ***
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\RenderSystem_GL
+03:20:18: Uninstalling plugin: D3D11 RenderSystem
+03:20:18: D3D11 : Shutting down cleanly.
+03:20:18: Unregistering ResourceManager for type Texture
+03:20:18: Unregistering ResourceManager for type GpuProgram
+03:20:18: D3D11 : Direct3D11 Rendering Subsystem destroyed.
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\RenderSystem_Direct3D11
+03:20:18: Uninstalling plugin: D3D9 RenderSystem
+03:20:18: D3D9 : Shutting down cleanly.
+03:20:18: D3D9 : Direct3D9 Rendering Subsystem destroyed.
+03:20:18: Plugin successfully uninstalled
+03:20:18: Unloading library .\RenderSystem_Direct3D9
+03:20:18: Unregistering ResourceManager for type Material

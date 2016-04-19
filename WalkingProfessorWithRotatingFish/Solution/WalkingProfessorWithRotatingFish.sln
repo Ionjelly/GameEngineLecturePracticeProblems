@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WalkingProfessorWithRotatingFish", "WalkingProfessorWithRotatingFish\WalkingProfessorWithRotatingFish.vcxproj", "{7BF332A7-1B98-41A3-84F5-335EB0F6B06A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TestCases", "TestCases", "{D388F6CF-0D7F-4DCC-8C15-BFBAA64AF7E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComeAndGoAlongByZAxisInBoundary", "TestCases\ComeAndGoInBoundary\ComeAndGoInBoundary.vcxproj", "{B35C0722-B87C-4C06-A1A1-A82500F9AA31}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComeAndGoAndTurnAroundWhenPassedBy", "TestCases\ComeAndGoAndTurnAroundWhenPassedBy\ComeAndGoAndTurnAroundWhenPassedBy.vcxproj", "{9948BE32-5DA1-4A6B-9B1D-F981965F09E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RevolvingFish", "TestCases\RevolvingFish\RevolvingFish.vcxproj", "{41C48FA5-6097-4D6F-9122-4F5462403C1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CaseMerging", "TestCases\CaseMerging\CaseMerging.vcxproj", "{CBD9B7EF-18D6-4170-A0FE-073B46AACB92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BF332A7-1B98-41A3-84F5-335EB0F6B06A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BF332A7-1B98-41A3-84F5-335EB0F6B06A}.Debug|Win32.Build.0 = Debug|Win32
+		{7BF332A7-1B98-41A3-84F5-335EB0F6B06A}.Release|Win32.ActiveCfg = Release|Win32
+		{7BF332A7-1B98-41A3-84F5-335EB0F6B06A}.Release|Win32.Build.0 = Release|Win32
+		{B35C0722-B87C-4C06-A1A1-A82500F9AA31}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B35C0722-B87C-4C06-A1A1-A82500F9AA31}.Debug|Win32.Build.0 = Debug|Win32
+		{B35C0722-B87C-4C06-A1A1-A82500F9AA31}.Release|Win32.ActiveCfg = Release|Win32
+		{B35C0722-B87C-4C06-A1A1-A82500F9AA31}.Release|Win32.Build.0 = Release|Win32
+		{9948BE32-5DA1-4A6B-9B1D-F981965F09E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9948BE32-5DA1-4A6B-9B1D-F981965F09E7}.Debug|Win32.Build.0 = Debug|Win32
+		{9948BE32-5DA1-4A6B-9B1D-F981965F09E7}.Release|Win32.ActiveCfg = Release|Win32
+		{9948BE32-5DA1-4A6B-9B1D-F981965F09E7}.Release|Win32.Build.0 = Release|Win32
+		{41C48FA5-6097-4D6F-9122-4F5462403C1A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{41C48FA5-6097-4D6F-9122-4F5462403C1A}.Debug|Win32.Build.0 = Debug|Win32
+		{41C48FA5-6097-4D6F-9122-4F5462403C1A}.Release|Win32.ActiveCfg = Release|Win32
+		{41C48FA5-6097-4D6F-9122-4F5462403C1A}.Release|Win32.Build.0 = Release|Win32
+		{CBD9B7EF-18D6-4170-A0FE-073B46AACB92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBD9B7EF-18D6-4170-A0FE-073B46AACB92}.Debug|Win32.Build.0 = Debug|Win32
+		{CBD9B7EF-18D6-4170-A0FE-073B46AACB92}.Release|Win32.ActiveCfg = Release|Win32
+		{CBD9B7EF-18D6-4170-A0FE-073B46AACB92}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B35C0722-B87C-4C06-A1A1-A82500F9AA31} = {D388F6CF-0D7F-4DCC-8C15-BFBAA64AF7E0}
+		{9948BE32-5DA1-4A6B-9B1D-F981965F09E7} = {D388F6CF-0D7F-4DCC-8C15-BFBAA64AF7E0}
+		{41C48FA5-6097-4D6F-9122-4F5462403C1A} = {D388F6CF-0D7F-4DCC-8C15-BFBAA64AF7E0}
+		{CBD9B7EF-18D6-4170-A0FE-073B46AACB92} = {D388F6CF-0D7F-4DCC-8C15-BFBAA64AF7E0}
+	EndGlobalSection
+EndGlobal
